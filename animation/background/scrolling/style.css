@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #75C7EB;
+}
+
+.text {
+  position: relative;
+  -webkit-transform: skewY(170deg) translate(-200px);
+          transform: skewY(170deg) translate(-200px);
+}
+
+.text h2 {
+  position: relative;
+  width: 100%;
+  font-size: 6em;
+  color: #fff;
+  opacity: 0.25;
+  pointer-events: none;
+  line-height: 1.5em;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=style.css.map */
